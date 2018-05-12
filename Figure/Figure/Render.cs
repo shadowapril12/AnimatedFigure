@@ -84,24 +84,6 @@ namespace Figure
             Console.Write("■");
             Console.SetCursorPosition(x - 1, y);
             Console.Write("■");
-        }
-
-        //Метод для отрисовки четырех пикселей
-        public void SetQuadroPixel(int x, int y, ConsoleColor color)
-        {
-            if (x < 0 || y < 0)
-            {
-                return;
-            }
-            Console.SetCursorPosition(x, y);
-            Console.ForegroundColor = color;
-            Console.Write("■");
-            Console.SetCursorPosition(x - 1, y);
-            Console.Write("■");
-            Console.SetCursorPosition(x - 1, y + 1);
-            Console.Write("■");
-            Console.SetCursorPosition(x, y + 1);
-            Console.Write("■");
-        }
+        }       
     }
 }

@@ -28,8 +28,6 @@ namespace Figure
         //Служит для отрисовки двух пикселей
         void SetDoublePixel(int x, int y, ConsoleColor color);
 
-        //Отрисовка четырех пикселей
-        void SetQuadroPixel(int x, int y, ConsoleColor color);
         
         //Свойство - счетчик
         int Frame { get; }
